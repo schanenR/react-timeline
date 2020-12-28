@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import timelineData from './data/timeline.json';
 import Timeline from './components/Timeline';
+import Header from './components/Header';
+import Main from './components/Main';
 
 function App() {
   console.log(timelineData);
@@ -10,11 +12,8 @@ function App() {
   // Customize the code below
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="App-title">Application title</h1>
-      </header>
-      <main className="App-main">
-      </main>
+      <Header className="App-header"/>
+      <Main className="App-main"/>
     </div>
   );
 }
